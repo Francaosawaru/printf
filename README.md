@@ -18,7 +18,7 @@ funtions1.c
 
 funtions2.c
 
-write_handles.c
+write_handlers.c
 
 get_flags.c
 
