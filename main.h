@@ -1,5 +1,5 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef _MAIN_H
+#define _MAIN_H
 #include <stdio.h>
 #include <stdarg.h>
 #include <limits.h>
@@ -55,3 +55,4 @@ int print_short_octal(va_list);
 int print_short_unsigned_HEX_UPPER(va_list);
 int print_short_unsigned_dec(va_list);
 /* b, c, d & i, o, %, p, r, R, s, S, u, x, X */
+#endif
