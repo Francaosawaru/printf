@@ -1,69 +1,98 @@
 Printf project collaboration between Samuel Ayanwole and Franca Osawaru,students of ALX Software Engeenring Cohort18.In this project a function named "printf" is created to perform the same funtion as that of the prinf in the stdio.h libary.
 
-This printf project contains the following files:
+PROTOTYPES
 
-main.h
 
-_putchar
+int print_unsigned_HEX_UPPER(va_list);
+int print_unsigned_dec(va_list);
+int print_unsigned_hex(va_list);
+int print_address(va_list);
+int print_binary(va_list);
+int print_char(va_list);
+int print_hash_HEX_UPPER(va_list);
+int print_hash_hex(va_list);
+int print_hash_octal(va_list);
+int print_HEX_UPPER(long int, unsigned int, unsigned int);
+int print_long_number(va_list);
+int print_short_unsigned_HEX_UPPER(va_list);
+int print_short_unsigned_dec(va_list);
+int print_short_unsigned_hex(va_list);
+int print_space_number(va_list);
+int print_string(va_list);
+int print_STRING_UPPER(va_list);
+int print_long_octal(va_list);
+int print_long_unsigned_HEX_UPPER(va_list);
+int print_long_unsigned_dec(va_list);
+int print_long_unsigned_hex(va_list);
+int print_short_octal(va_list);
+int print_number(va_list);
+int print_rot13(va_list);
+int print_octal(va_list);
+int print_reverse(va_list);
+int print_short_number(va_list);
+int print_percent(va_list);
+int print_plus_number(va_list);
 
-_printf
 
-utilis.c
 
-handle_print.c
+TASKS
 
-functions.c
 
-funtions1.c
 
-funtions2.c
+0. I'm not going anywhere. You can print that wherever you want to.
+I'm here and I'm a Spur for life
 
-write_handlers.c
 
-get_flags.c
 
-get_precision.c
+1. Education is when you read the fine print.
+Experience is what you get if you don't
 
-get_size.c
 
-get_width.c
+2.With a face like mine, I do better in print
 
-main.c
 
-prototypes;
+3. What one has not experienced, one will never understand in print
 
-int print_hexa_upper(va_list types, char buffer[],int flags, int width, int precision, int size);
-int print_hexa(va_list types, char map_to[],char buffer[], int flags, char flag_ch,int width,int precision,int size);
-int print_non_printable(va_list types, char buffer[],int flags, int width, int precision, int size);
-int print_int(va_list types, char buffer[],int flags, int width, int precision, int size);
-int print_binary(va_list types, char buffer[],int flags, int width, int precision, int size);
-int print_unsigned(va_list types, char buffer[],int flags, int width, int precision,int size);
-int print_octal(va_list types, char buffer[],int flags, int width, int precision, int size);
-int print_hexadecimal(va_list types, char buffer[],int flags, int width, int precision, int size);
-int get_flags(const char *format, int *i);
-int get_width(const char *format, int *i, va_list list);
-int get_precision(const char *format, int *i, va_list list);
-int get_size(const char *format, int *i);
-int print_pointer(va_list types, char buffer[],int print_reverse(va_list types, char buffer[],int print_reverse(va_list types, char buffer[],int flags, int width, int precision, int size);
-int flags, int width, int precision, int size);
-int flags, int width, int precision, int size);
-int print_rot13string(va_list types, char buffer[],int flags, int width, int precision, int size);
-long int convert_size_number(long int num, int size);
-long int convert_size_unsgnd(unsigned long int num, int size);
 
-files funtions:
-Function to print string in reverse
+4. Nothing in fine print is ever good news
 
-Function to print non printable characters
 
-Funtions to print chars and strings
+5. My weakness is wearing too much leopard print
 
-Funcion to print memory address
 
-Functions to print numbers
+6. How is the world ruled and led to war?
+Diplomats lie to journalists and believe these lies when they see them in print
 
-Funciotns to handle other specifiers
+
+7. The big print gives and the small print takes away
+
+
+
+8. Sarcasm is lost in print
+
+
+9. Print some money and give it to us for the rain forests
+
+
+10. The negative is the equivalent of the composer's score,
+and the print the performance
+
+
+11. It's depressing when you're still around 
+and your albums are out of print
+
+
+12. Every time that I wanted to give up, 
+if I saw an interesting textile, print what ever, 
+suddenly I would see a collection
+
+
+13. Print is the sharpest and the strongest weapon of our party
+
+
+14. The flood of print has turned reading into a process of gulping rather than savoring
+
+
 
 Collaborators:
 Samuel Ayanwole and Franca Osawaru
-
