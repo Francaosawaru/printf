@@ -3,25 +3,25 @@ Printf project collaboration between Samuel Ayanwole and Franca Osawaru,students
 PROTOTYPES
 
 
-int print_unsigned_HEX_UPPER(va_list);
+int print_unsigned_HEX(va_list);
 int print_unsigned_dec(va_list);
 int print_unsigned_hex(va_list);
 int print_address(va_list);
 int print_binary(va_list);
 int print_char(va_list);
-int print_hash_HEX_UPPER(va_list);
+int print_hash_HEX(va_list);
 int print_hash_hex(va_list);
 int print_hash_octal(va_list);
-int print_HEX_UPPER(long int, unsigned int, unsigned int);
+int print_HEX(long int, unsigned int, unsigned int);
 int print_long_number(va_list);
-int print_short_unsigned_HEX_UPPER(va_list);
+int print_short_unsigned_HEX(va_list);
 int print_short_unsigned_dec(va_list);
 int print_short_unsigned_hex(va_list);
 int print_space_number(va_list);
 int print_string(va_list);
-int print_STRING_UPPER(va_list);
+int print_STRING(va_list);
 int print_long_octal(va_list);
-int print_long_unsigned_HEX_UPPER(va_list);
+int print_long_unsigned_HEX(va_list);
 int print_long_unsigned_dec(va_list);
 int print_long_unsigned_hex(va_list);
 int print_short_octal(va_list);

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_addr - function address of a variable in hex format
+ * print_address - function address of a variable in hex format
  * @args: arguments
  * Return: count
  */
@@ -20,6 +20,6 @@ return (5);
 addr = (intptr_t)str;
 _putchar('0');
 _putchar('x');
-count = print_HEX_UPPER(addr, 12, 0);
+count = print_HEX(addr, 12, 0);
 return (2 + count);
 }

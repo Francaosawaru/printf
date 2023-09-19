@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
- * print_STRING_UPPER - prints hex values of non-printable characters
+ * print_STRING - also prints hex values of non-printable characters
  * @args: arguments
+ *
  * Return: count
  */
-int print_STRING_UPPER(va_list args)
+int print_STRING(va_list args)
 {
 int i, n = 0;
 char *str;
@@ -22,7 +24,7 @@ if (str[i] < 32 || str[i] >= 127)
 {
 _putchar(92);
 _putchar('x');
-print_HEX_UPPER((long int)str[i], 2, 1);
+print_HEX((long int)str[i], 2, 1);
 n += 3;
 }
 else

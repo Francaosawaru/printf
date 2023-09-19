@@ -1,12 +1,12 @@
 #include "main.h"
 /**
-* print_HEX_UPPER - prints a hexadecimal number
+* print_HEX - prints a hexadecimal number
 * @num: decimal to convert
 * @size: the array size
 * @type: letter case indicator wether lowercase letters or uppercase
 * Return: Nothing
 */
-int print_HEX_UPPER(long int num, unsigned int size, unsigned int type)
+int print_HEX(long int num, unsigned int size, unsigned int type)
 {
 unsigned int p, i;
 int *hex;

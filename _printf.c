@@ -34,7 +34,7 @@ count++;
 else
 {
 count += ptr_func(list);
-i += get_nflags(format, i + 1);
+i += get_flags(format, i + 1);
 }
 }
 else
@@ -43,5 +43,5 @@ _putchar(format[i]);
 count++;
 }
 }
-return (count);
+	return (count);
 }

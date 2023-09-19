@@ -1,15 +1,11 @@
 #include "main.h"
-
 /**
- * get_function - handler selector for a specifier
- * @str: string
- * @id: element index after % symbol
- * This function is called from the _printf function after % is encountered
- * It will return NULL if the char after % is not a specifier and just print %
+ * get_func - selects the handler for a specifier
+ * @str: the string
+ * @id: the index of the element after % symbol
  * Return: a pointer to the function that handles the specifier, or NULL if
- * the char after % is not a specifier
  */
-int (*get_function(const char *str, int id))(va_list)
+int (*get_func(const char *str, int id))(va_list)
 {
 /* fns is a struct array containing the specifier and its function */
 prn fns[] = {
@@ -23,16 +19,15 @@ prn fns[] = {
 {"+ i", print_plus_number}, {" +i", print_plus_number},
 {"s", print_string}, {"%", print_percent}, {"b", print_binary},
 {"o", print_octal}, {"u", print_unsigned_dec},
-{"x", print_unsigned_hex}, {"X", print_unsigned_HEX_UPPER},
-{"lX", print_long_unsigned_HEX_UPPER}, {"hX", print_short_unsigned_HEX_UPPER},
+{"x", print_unsigned_hex}, {"X", print_unsigned_HEX},
+{"lX", print_long_unsigned_HEX}, {"hX", print_short_unsigned_HEX},
 {"lx", print_long_unsigned_hex}, {"hx", print_short_unsigned_hex},
 {"lo", print_long_octal}, {"ho", print_short_octal},
-{"S", print_STRING_UPPER}, {"p", print_address}, {"#o", print_hash_octal},
-{"#x", print_hash_hex}, {"#X", print_hash_HEX_UPPER}, {"r", print_reverse},
+{"S", print_STRING}, {"p", print_address}, {"#o", print_hash_octal},
+{"#x", print_hash_hex}, {"#X", print_hash_HEX}, {"r", print_reverse},
 {"R", print_rot13}, {NULL, NULL}
 };
 int i = 0, j = 0;
-
 if (str)
 {
 /* comparing each fns.c to the characters after % */
@@ -55,5 +50,5 @@ i++;
 }
 }
 /* return Null if the format is null or the next char is not a specifier */
-return (NULL)
+return (NULL);
 }
