@@ -30,7 +30,6 @@ prn fns[] = {
 int i = 0, j = 0;
 if (str)
 {
-/* comparing each fns.c to the characters after % */
 while (fns[i].func != NULL)
 {
 if (fns[i].c[j] == str[id])
@@ -48,7 +47,5 @@ id++;
 }
 i++;
 }
-}
-/* return Null if the format is null or the next char is not a specifier */
 return (NULL);
 }
