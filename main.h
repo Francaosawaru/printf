@@ -6,6 +6,8 @@
 #include <string.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <stddef.h>
+#include <stdint.h>
 /**
  * struct print - Struct op
  * @c: char or format specifier
