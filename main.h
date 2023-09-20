@@ -5,8 +5,6 @@
 #include <limits.h>
 #include <string.h>
 #include <unistd.h>
-#include <stdint.h>
-#include <stddef.h>
 #include <stdlib.h>
 /**
  * struct print - Struct op
